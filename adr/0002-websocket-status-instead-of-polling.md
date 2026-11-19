@@ -1,7 +1,5 @@
 # 0002 — WebSocket status instead of polling
 
-**Status:** draft
-
 ## Context
 
 <!-- long-running report generation, users waiting on a request -->
