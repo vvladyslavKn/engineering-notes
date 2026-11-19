@@ -17,7 +17,7 @@ Short ADRs for the calls that shaped these systems: [adr/](adr/README.md)
 
 ## Schema sketches
 
-- [schema/ledger.sql](schema/ledger.sql) — double-entry journal with holds and idempotency keys (draft DDL, not production code)
+- [schema/ledger.sql](schema/ledger.sql) — double-entry journal with holds and idempotency keys
 
 ---
 
