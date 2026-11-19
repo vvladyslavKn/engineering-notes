@@ -1,46 +1,26 @@
-<p align="center">
-  <img src="./profile-banner.png" alt="Vladyslav Knysh - Senior Full-Stack Engineer" width="100%" />
-</p>
+# Engineering notes
 
-<p align="center">
-  <a href="mailto:knyshvladyslav1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-knyshvladyslav1%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=6CC24A" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=336791" alt="PostgreSQL" />
-</p>
+Short write-ups of backend problems I have worked on, the trade-offs behind the solutions, and the schema sketches that came out of them.
 
-## About
+> Status: skeleton. Each note carries its own status line — numbers come from production work and get confirmed before a note is published.
 
-Senior Full-Stack Engineer focused on building reliable, product-minded web systems with clean architecture, pragmatic delivery, and strong ownership from idea to production.
+## Notes
 
-## Core Stack
+| # | Note | Topic |
+|---|---|---|
+| 01 | [Real-time event processing](notes/realtime-event-processing.md) | WebSocket delivery, fan-out, reconnect |
+| 02 | [Postgres performance](notes/postgres-performance.md) | indexes, query shape, caching |
+| 03 | [Multi-tenant isolation](notes/multi-tenant-isolation.md) | schema boundaries, access rules |
+| 04 | [Ledger and holds](notes/ledger-and-holds.md) | double-entry, balances as projection |
 
-| Frontend | Backend | Data | Product |
-| --- | --- | --- | --- |
-| React, Next.js, TypeScript | Node.js, APIs, integrations | PostgreSQL, data modeling | UX thinking, discovery, delivery |
+## Decision records
 
-## What I Build
+Short ADRs for the calls that shaped these systems: [adr/](adr/README.md)
 
-- Scalable full-stack applications
-- Product-focused MVPs and production features
-- Internal tools, dashboards, and admin systems
-- API-driven platforms and integrations
-- Systems that are clear to maintain and easy to evolve
+## Schema sketches
 
-## Engineering Principles
+- [schema/ledger.sql](schema/ledger.sql) — double-entry journal with holds and idempotency keys (draft DDL, not production code)
 
-- Build for the user first
-- Keep architecture understandable
-- Prefer simple systems that scale
-- Own the full path from problem to production
-- Make tradeoffs explicit and intentional
+---
 
-## Contact
-
-For collaboration, product engineering, or full-stack development work:
-
-**Email:** [knyshvladyslav1@gmail.com](mailto:knyshvladyslav1@gmail.com)
+LinkedIn: [vladyslavvknysh](https://www.linkedin.com/in/vladyslavvknysh/) · knyshvladyslav1@gmail.com
