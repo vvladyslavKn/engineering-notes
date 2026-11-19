@@ -1,7 +1,5 @@
 # 0001 — Holds instead of mutating balances
 
-**Status:** draft
-
 ## Context
 
 <!-- -->
