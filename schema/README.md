@@ -1,5 +1,5 @@
 # Schema sketches
 
-Draft DDL, written to make the invariants concrete. Not production code and not a runnable service.
+DDL sketches that make the accounting invariants concrete.
 
 - [ledger.sql](ledger.sql) — accounts, journal entries, postings, holds, idempotency keys
