@@ -1,7 +1,5 @@
 # 03 — Multi-tenant isolation
 
-**Status:** draft.
-
 ## Context
 
 <!-- vertical SaaS: 100 farms, 1,000 active users, team of 18 -->
