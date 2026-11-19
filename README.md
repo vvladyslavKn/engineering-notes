@@ -2,8 +2,6 @@
 
 Short write-ups of backend problems I have worked on, the trade-offs behind the solutions, and the schema sketches that came out of them.
 
-> Status: skeleton. Each note carries its own status line — numbers come from production work and get confirmed before a note is published.
-
 ## Notes
 
 | # | Note | Topic |
