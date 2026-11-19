@@ -1,7 +1,5 @@
 # 01 — Real-time event processing
 
-**Status:** draft. Numbers below come from production work; each one gets confirmed before this note is published.
-
 ## Context
 
 <!-- system, team size, scale, what the product did -->
