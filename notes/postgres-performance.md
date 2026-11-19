@@ -1,7 +1,5 @@
 # 02 — Postgres performance
 
-**Status:** draft.
-
 ## Context
 
 <!-- schema size, traffic, read/write mix -->
