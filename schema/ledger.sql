@@ -5,6 +5,8 @@
 --   3. the same external event can never be posted twice
 --   4. funds reserved for an open order stay on the balance sheet until released
 --   5. amounts are integers in minor units
+--
+-- Assumes an existing users table; system accounts have owner_id = null.
 
 create table accounts (
     id          bigserial primary key,
