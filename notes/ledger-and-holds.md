@@ -1,7 +1,5 @@
 # 04 — Ledger and holds
 
-**Status:** draft. Design note, not a description of shipped work.
-
 ## Context
 
 <!-- how balances are usually modelled and why that breaks -->
