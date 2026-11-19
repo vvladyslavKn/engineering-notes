@@ -1,7 +1,5 @@
 # 0003 — Tenant isolation at the schema level
 
-**Status:** draft
-
 ## Context
 
 <!-- white-label deployments, many clients on one platform -->
